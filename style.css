@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      color: navy;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+  }
+  
+  header {
+      background-color: rgb(173, 201, 230);
+      color: navy;
+      padding: 10px 0;
+  }
+  
+  nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+  }
+  
+  nav a {
+      color: rgb(62, 62, 169);
+      text-decoration: none;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  #projects .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+  }
+  
+  .grid-item {
+      padding: 20px;
+      border: 1px solid #69b7fc;
+      border-radius: 8px;
+      text-align: center;
+      background-color:rgb(144, 187, 255);
+  }
